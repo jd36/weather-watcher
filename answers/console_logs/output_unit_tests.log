@@ -1,0 +1,19 @@
+(.venv) (base) Johns-MacBook-Pro:weather-watcher duongj$ pytest weather_watcher_tests/api_test.py -s
+======================================================================================= test session starts =======================================================================================
+platform darwin -- Python 3.12.4, pytest-7.4.4, pluggy-1.3.0
+rootdir: /Users/duongj/experiments/Github-projects/weather-watcher
+plugins: anyio-4.2.0
+collected 3 items                                                                                                                                                                                 
+
+weather_watcher_tests/api_test.py {'id': 1, 'name': 'USC00257715'}
+.{'id': 1, 'station_name': 'USC00257715', 'date': '1985-01-01', 'max_temperature': -8.3, 'min_temperature': -14.4, 'precipitation': 0.0}
+.{'id': 1, 'station_name': 'USC00257715', 'year': 1985, 'avg_max_temperature': 15.8255, 'avg_min_temperature': 4.33973, 'total_precipitation': 0.606}
+.
+
+======================================================================================== warnings summary =========================================================================================
+.venv/lib/python3.12/site-packages/sqlalchemy/sql/sqltypes.py:2030
+  /Users/duongj/experiments/Github-projects/weather-watcher/.venv/lib/python3.12/site-packages/sqlalchemy/sql/sqltypes.py:2030: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+    epoch = dt.datetime.utcfromtimestamp(0)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================================================================== 3 passed, 1 warning in 1.28s ===================================================================================

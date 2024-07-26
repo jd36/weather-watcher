@@ -1,0 +1,38 @@
+These DDL statements are used in the db_migrations/versions/*.py files:
+
+        """
+        CREATE TABLE IF NOT EXISTS weather_stations (
+            id INT AUTO_INCREMENT NOT NULL,
+            name CHAR(255) NOT NULL,
+            PRIMARY KEY (id),
+            UNIQUE KEY unique_name (name)
+        ) ENGINE=InnoDB;
+        """
+
+        """
+        CREATE TABLE IF NOT EXISTS weather_measurements (
+            id INT AUTO_INCREMENT NOT NULL,
+            station_id INT NOT NULL,
+            date DATE NOT NULL,
+            max_temperature FLOAT,
+            min_temperature FLOAT,
+            precipitation FLOAT,
+            PRIMARY KEY (id),
+            FOREIGN KEY (station_id)
+                REFERENCES weather_stations(id)
+        ) ENGINE=InnoDB;
+        """
+
+        """
+        CREATE TABLE IF NOT EXISTS weather_statistics (
+            id INT AUTO_INCREMENT NOT NULL,
+            station_id INT NOT NULL,
+            year INT NOT NULL,
+            avg_max_temperature FLOAT,
+            avg_min_temperature FLOAT,
+            total_precipitation FLOAT,
+            PRIMARY KEY (id),
+            FOREIGN KEY (station_id)
+                REFERENCES weather_stations(id)
+        ) ENGINE=InnoDB;
+        """

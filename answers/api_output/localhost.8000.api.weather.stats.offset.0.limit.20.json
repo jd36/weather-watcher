@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "station_name": "USC00257715",
+        "year": 1985,
+        "avg_max_temperature": 15.8255,
+        "avg_min_temperature": 4.33973,
+        "total_precipitation": 0.606
+    },
+    {
+        "id": 2,
+        "station_name": "USC00257715",
+        "year": 1986,
+        "avg_max_temperature": 17.5573,
+        "avg_min_temperature": 6.1589,
+        "total_precipitation": 0.8119
+    },
+    {
+        "id": 3,
+        "station_name": "USC00257715",
+        "year": 1987,
+        "avg_max_temperature": 18.2542,
+        "avg_min_temperature": 6.59726,
+        "total_precipitation": 1.0428
+    },
+    {
+        "id": 4,
+        "station_name": "USC00257715",
+        "year": 1988,
+        "avg_max_temperature": 18.4811,
+        "avg_min_temperature": 5.27377,
+        "total_precipitation": 3.1812
+    },
+    {
+        "id": 5,
+        "station_name": "USC00257715",
+        "year": 1989,
+        "avg_max_temperature": 17.2167,
+        "avg_min_temperature": 4.43288,
+        "total_precipitation": 0.5888
+    },
+    {
+        "id": 6,
+        "station_name": "USC00257715",
+        "year": 1990,
+        "avg_max_temperature": 18.7619,
+        "avg_min_temperature": 5.85452,
+        "total_precipitation": 0.6673
+    },
+    {
+        "id": 7,
+        "station_name": "USC00257715",
+        "year": 1991,
+        "avg_max_temperature": 18.1863,
+        "avg_min_temperature": 5.9126,
+        "total_precipitation": 0.6222
+    },
+    {
+        "id": 8,
+        "station_name": "USC00257715",
+        "year": 1992,
+        "avg_max_temperature": 17.0585,
+        "avg_min_temperature": 5.71694,
+        "total_precipitation": 0.7743
+    },
+    {
+        "id": 9,
+        "station_name": "USC00257715",
+        "year": 1993,
+        "avg_max_temperature": 35.02,
+        "avg_min_temperature": 27.6219,
+        "total_precipitation": 1.5502
+    },
+    {
+        "id": 10,
+        "station_name": "USC00257715",
+        "year": 1994,
+        "avg_max_temperature": 17.5822,
+        "avg_min_temperature": 5.11425,
+        "total_precipitation": 0.6446
+    },
+    {
+        "id": 11,
+        "station_name": "USC00257715",
+        "year": 1995,
+        "avg_max_temperature": 19.3378,
+        "avg_min_temperature": 7.45205,
+        "total_precipitation": 1.0291
+    },
+    {
+        "id": 12,
+        "station_name": "USC00257715",
+        "year": 1996,
+        "avg_max_temperature": 16.7423,
+        "avg_min_temperature": 3.68934,
+        "total_precipitation": 0.8018
+    },
+    {
+        "id": 13,
+        "station_name": "USC00257715",
+        "year": 1997,
+        "avg_max_temperature": 17.5879,
+        "avg_min_temperature": 4.62822,
+        "total_precipitation": 0.6755
+    },
+    {
+        "id": 14,
+        "station_name": "USC00257715",
+        "year": 1998,
+        "avg_max_temperature": 18.5874,
+        "avg_min_temperature": 6.43589,
+        "total_precipitation": 0.7624
+    },
+    {
+        "id": 15,
+        "station_name": "USC00257715",
+        "year": 1999,
+        "avg_max_temperature": 19.2403,
+        "avg_min_temperature": 5.66137,
+        "total_precipitation": 0.824
+    },
+    {
+        "id": 16,
+        "station_name": "USC00257715",
+        "year": 2000,
+        "avg_max_temperature": 19.1301,
+        "avg_min_temperature": 5.29126,
+        "total_precipitation": 0.5506
+    },
+    {
+        "id": 17,
+        "station_name": "USC00257715",
+        "year": 2001,
+        "avg_max_temperature": 23.1699,
+        "avg_min_temperature": 10.3742,
+        "total_precipitation": 0.7723
+    },
+    {
+        "id": 18,
+        "station_name": "USC00257715",
+        "year": 2002,
+        "avg_max_temperature": 22.989,
+        "avg_min_temperature": 9.58356,
+        "total_precipitation": 0.5552
+    },
+    {
+        "id": 19,
+        "station_name": "USC00257715",
+        "year": 2003,
+        "avg_max_temperature": 16.9173,
+        "avg_min_temperature": 3.96219,
+        "total_precipitation": 0.6689
+    },
+    {
+        "id": 20,
+        "station_name": "USC00257715",
+        "year": 2004,
+        "avg_max_temperature": 25.0355,
+        "avg_min_temperature": 12.3068,
+        "total_precipitation": 0.6386
+    }
+]
