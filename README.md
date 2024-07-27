@@ -1,6 +1,6 @@
 # ANSWERS
 
-Steps on how to run the code are project after this answers section.
+Steps on how to run the code for this exercise are after this answers section.
 
 ## Problem 1 - Data Modeling
 
@@ -34,7 +34,7 @@ I chose FastAPI as my REST API Web Framework because I am very familiar with it,
 
 1. `/api/weather` - produces paginated json results of the ingested data stored inside the weather_measurements table.  Allows for optionally filtering by date and/or by station_id.  Default paging parameters are offset=0 and limit=20.
 2. `/api/weather/stats` - produces paginated json results of the computed data analysis statistics data stored inside the weather_statistics table.  Allows for optionally filtering by year and/or by station_id.  Default paging parameters are offset=0 and limit=20.
-3. `/api/weather/stations` - produces paginated json results of the ingested data stored inside the weather_measurements table.  Allows for optionally filtering by date and/or by station_id.  Default paging parameters are offset=0 and limit=20.
+3. `/api/weather/stations` - produces paginated json results of the ingested data stored inside the weather_stations table.  Allows for optionally filtering by date and/or by station_id.  Default paging parameters are offset=0 and limit=20.
 
 I saved the API output from visiting the endpoints in a browser to `./answers/api_output/`.  I included PDF printouts from the browser as well as the json formatted results.
 
@@ -52,7 +52,7 @@ Output from running the unit test is stoed in `./answers/console_logs/output_uni
 
 ## Extra Credit - Deployment
 
-To get this code running in the AWS cloud, I would start with a Docker image that has a shell environment like my development environment.  I would create a Dockerfile to customize such an image so that it has the correct Python, pip, and their required dependencies installed to run FastAPI.  I could then push this image up to AWS ECR.  I can then use ECS Fargate clusters to pull and run the image from the AWS repo.  I can configure API Gateway to allow for public access to the endpoints in my ECS instances.
+To get this code running in the AWS cloud, I would start with a Docker image that has a shell environment like my development environment.  I would create a Dockerfile to customize such an image so that it has the correct Python, pip, and their required dependencies installed to run FastAPI.  I could then push this image up to AWS ECR.  Then I could use ECS Fargate clusters to pull and run the image from the AWS repo.  I can configure API Gateway to allow for public access to the endpoints in my ECS instances.
 
 For the database, I would use RDS to setup MySQL Server.  Using RDS, I could enjoy all the benefits that it comes with, including its performance, scalability, high availability, security, and ease of operations like upgrading, provisioning and backups.
 
